@@ -2,19 +2,32 @@
   Minor styling making the layout look nice
 */
 
+@font-face {
+  font-family: 'bergen_textbold';
+  src: url('fonts/mindburger_studio_-_bergen_text_bold-webfont.woff2') format('woff2'),
+       url('fonts/mindburger_studio_-_bergen_text_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
 }
 
 .font-wrapper {
   flex: 1 1 50%;
   flex-direction: column;
+  padding: 0 50px;
 }
 
 article {
   margin: 50px 0;
+}
+
+article p {
+  line-height: 28px;
 }
 
 .font-declaration {
@@ -50,6 +63,7 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+  font-family: 'bergen_textbold';
 }
 
 h1 {
@@ -57,7 +71,10 @@ h1 {
   font-size: 5.063em;
 }
 
-h2 {font-size: 3.375em;}
+h2 {
+  margin-top: 0;
+  font-size: 3.375em;
+}
 
 h3 {font-size: 2.25em;}
 
@@ -68,3 +85,11 @@ small, .font_small {font-size: 0.667em;}
 /*
   End minor styling making the layout look nice
 */
+
+.open-sans p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.avenir p {
+  font-family:'Avenir LT W01_45 Book1475508';
+}
