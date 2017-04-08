@@ -93,3 +93,19 @@ small, .font_small {font-size: 0.667em;}
 .avenir p {
   font-family:'Avenir LT W01_45 Book1475508';
 }
+
+.minion p {
+  font-family:'Minion W01 Cap Regular';
+}
+
+.courier p {
+  font-family:'Courier PS W01';
+}
+
+.grotesk p {
+  font-family:'PF Das Grotesk W01 Regular';
+}
+
+.futura p {
+  font-family:'Futura LT W01 Book';
+}
